@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DISCOURSE — The internet’s best conversations, printed quarterly</title>
+  <meta name="description" content="DISCOURSE is a quarterly print magazine. Fifteen of the internet’s most fascinating conversations each quarter — curated, annotated, and printed on paper worth keeping.">
+  <meta property="og:title" content="DISCOURSE — A quarterly magazine of the internet’s best conversations">
+  <meta property="og:description" content="Fifteen threads that deserved better than the feed. Printed, quarterly, no refresh required.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <a class="topbar__brand" href="#top">Discourse</a>
+    <nav class="topbar__nav" aria-label="Sections">
+      <a href="#inside">Inside</a>
+      <a href="#how">How it’s made</a>
+      <a href="#object">The object</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="topbar__cta" href="#reserve">Reserve Issue 00</a>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__text">
+        <p class="hero__kicker">A quarterly print magazine · Issue 00 arrives fall 2026</p>
+        <h1 class="hero__masthead">DISCOURSE</h1>
+        <p class="hero__tagline">
+          The internet holds about four hundred thousand conversations worth having
+          every quarter, and forgets nearly all of them by Thursday. We print the
+          fifteen that deserved better than the feed — with commentary, on paper,
+          <em>no refresh required.</em>
+        </p>
+
+        <form class="capture" action="https://buttondown.com/api/emails/embed-subscribe/REPLACE_ME" method="post">
+          <label class="visually-hidden" for="email-hero">Email address</label>
+          <input type="email" name="email" id="email-hero" placeholder="you@example.com" required>
+          <button type="submit">Reserve Issue 00</button>
+        </form>
+        <p class="capture__note">First print run is short. One email per quarter — that’s the whole point.</p>
+      </div>
+
+      <figure class="hero__cover" aria-label="Cover of Issue 00: a clay-red rotary telephone whose cord frays into pixels, under the theme ‘The Quarter We Started Logging Off’">
+        <div class="cover">
+          <svg viewBox="0 0 600 820" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+            <rect x="0" y="0" width="600" height="820" fill="#F5EFE4"/>
+            <!-- top rule + issue line -->
+            <line x1="40" y1="58" x2="560" y2="58" stroke="#1A1816" stroke-width="2"/>
+            <text x="40" y="44" class="cov-small">Issue 00 · Q1</text>
+            <text x="560" y="44" text-anchor="end" class="cov-small">The best of the internet, quarterly</text>
+            <!-- masthead -->
+            <text x="300" y="168" text-anchor="middle" class="cov-masthead" textLength="520" lengthAdjust="spacingAndGlyphs">DISCOURSE</text>
+            <line x1="40" y1="200" x2="560" y2="200" stroke="#1A1816" stroke-width="1"/>
+            <!-- rotary phone: handset -->
+            <g fill="#B44A32">
+              <circle cx="185" cy="368" r="42"/>
+              <circle cx="415" cy="368" r="42"/>
+              <path d="M185 330 Q300 290 415 330 L415 366 Q300 328 185 366 Z"/>
+              <!-- cradle arms -->
+              <rect x="196" y="392" width="26" height="60" rx="10"/>
+              <rect x="378" y="392" width="26" height="60" rx="10"/>
+              <!-- body -->
+              <path d="M150 560 Q150 448 230 442 L370 442 Q450 448 450 560 L450 592 Q450 604 438 604 L162 604 Q150 604 150 592 Z"/>
+            </g>
+            <!-- dial -->
+            <circle cx="300" cy="520" r="64" fill="#F5EFE4"/>
+            <circle cx="300" cy="520" r="63" fill="none" stroke="#1A1816" stroke-width="2"/>
+            <circle cx="300" cy="520" r="18" fill="#B44A32"/>
+            <g fill="#1A1816">
+              <circle cx="300" cy="478" r="8"/>
+              <circle cx="330" cy="490" r="8"/>
+              <circle cx="342" cy="520" r="8"/>
+              <circle cx="330" cy="550" r="8"/>
+              <circle cx="300" cy="562" r="8"/>
+              <circle cx="270" cy="550" r="8"/>
+              <circle cx="258" cy="520" r="8"/>
+              <circle cx="270" cy="490" r="8"/>
+            </g>
+            <!-- coiled cord, fraying into pixels -->
+            <path d="M448 580 q 34 10 30 34 q -4 22 -30 20 q -26 -2 -22 22 q 4 24 30 22 q 26 -2 24 22 q -2 22 -28 22"
+                  fill="none" stroke="#B44A32" stroke-width="9" stroke-linecap="round"/>
+            <g fill="#B44A32">
+              <rect x="470" y="726" width="12" height="12"/>
+              <rect x="492" y="740" width="9" height="9"/>
+              <rect x="462" y="748" width="7" height="7"/>
+              <rect x="484" y="762" width="11" height="11"/>
+              <rect x="508" y="756" width="6" height="6"/>
+              <rect x="474" y="782" width="8" height="8"/>
+              <rect x="502" y="784" width="5" height="5"/>
+            </g>
+            <!-- theme line -->
+            <text x="40" y="700" class="cov-theme">The Quarter We</text>
+            <text x="40" y="742" class="cov-theme">Started Logging Off</text>
+            <text x="40" y="778" class="cov-small">Fifteen conversations · read them slowly</text>
+          </svg>
+        </div>
+        <figcaption class="hero__covercap">Issue 00 — “The Quarter We Started Logging Off”</figcaption>
+      </figure>
+    </section>
+
+    <!-- ============ SOURCE MARQUEE ============ -->
+    <div class="marquee" aria-label="Sourced from communities including">
+      <div class="marquee__track">
+        <span>r/AskHistorians · r/OutOfTheLoop · r/askscience · r/HobbyDrama · r/Cooking · r/InteriorDesign · r/AmItheAsshole · r/BestofRedditorUpdates · r/personalfinance · r/UnresolvedMysteries · r/ChangeMyView · r/dumbphones · r/AskOldPeople · r/MaliciousCompliance · r/NoStupidQuestions · r/technology · r/femalefashionadvice · r/digitalminimalism ·&nbsp;</span>
+        <span aria-hidden="true">r/AskHistorians · r/OutOfTheLoop · r/askscience · r/HobbyDrama · r/Cooking · r/InteriorDesign · r/AmItheAsshole · r/BestofRedditorUpdates · r/personalfinance · r/UnresolvedMysteries · r/ChangeMyView · r/dumbphones · r/AskOldPeople · r/MaliciousCompliance · r/NoStupidQuestions · r/technology · r/femalefashionadvice · r/digitalminimalism ·&nbsp;</span>
+      </div>
+    </div>
+
+    <!-- ============ MANIFESTO ============ -->
+    <section class="manifesto">
+      <p>
+        Somewhere on the internet right now, a historian is explaining a Cold War
+        cover-up, three thousand people are turning a hard childhood into a shared
+        cookbook, and a comment section is settling the lasagna question for good.
+        By next week the feed will have buried all of it.
+        <em>We think the best conversations online deserve the permanence of print</em> —
+        a magazine you leave on the coffee table, argue over at dinner, and still
+        want on the shelf in ten years.
+      </p>
+    </section>
+
+    <!-- ============ INSIDE THE ISSUE ============ -->
+    <section class="inside" id="inside">
+      <h2 class="section-label">Inside Issue 00</h2>
+      <p class="inside__intro">
+        Fifteen features per issue. Each one gets the full treatment: the story, our
+        commentary, a reading of the comment section — <em>the discourse</em> — and
+        three takeaways you can repeat at dinner as your own. A taste of what made the cut:
+      </p>
+
+      <div class="features">
+        <article class="feature">
+          <span class="feature__tag">r/AskHistorians</span>
+          <h3 class="feature__headline">Buried at Sea, Then Denied</h3>
+          <p class="feature__dek">In 1974 the CIA gave six Soviet sailors a funeral with full honors — and the cover story that hid it gave us a famous phrase.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__tag">r/InteriorDesign</span>
+          <h3 class="feature__headline">The Half-Life of Gray</h3>
+          <p class="feature__dek">Someone bought the trendiest house of 2019 and now lives inside a trend that died. A quiet panic about taste, money, and time.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__tag">r/askscience</span>
+          <h3 class="feature__headline">The Cells Forget, the Ink Remembers</h3>
+          <p class="feature__dek">If your body replaces itself every seven years, why does the tattoo stay? The answer is a tiny act of imprisonment.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__tag">r/Cooking</span>
+          <h3 class="feature__headline">The Government-Cheese Cookbook</h3>
+          <p class="feature__dek">Thousands of people who grew up poor traded the meals they remember — and turned scarcity into something close to a shared inheritance.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__tag">r/BestofRedditorUpdates</span>
+          <h3 class="feature__headline">Please Send Coffee</h3>
+          <p class="feature__dek">A rare hermit crab blocked the only door out of someone’s house. The internet did the only correct thing: gathered to admire it.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__tag">r/AskOldPeople</span>
+          <h3 class="feature__headline">Life Happens While You’re Making Other Plans</h3>
+          <p class="feature__dek">Someone asked the old whether they mourn their lost youth. The answers, from people in their seventies and eighties, were not what the young expect.</p>
+        </article>
+      </div>
+
+      <p class="inside__more">
+        Plus nine more, including <em>The Lasagna Schism</em>, <em>The Group Chat Votes
+        to Leave</em>, <em>What We Can’t Smell</em>, and <em>Goodbye, and Thank You</em> —
+        the farewell post from the dumbphone forum where the highest achievement is
+        never needing the forum again.
+      </p>
+    </section>
+
+    <!-- ============ HOW IT'S MADE ============ -->
+    <section class="how" id="how">
+      <h2 class="section-label">How it’s made</h2>
+      <div class="how__grid">
+        <div class="step">
+          <span class="step__num">01</span>
+          <h3>We read everything</h3>
+          <p>Each quarter we go through tens of thousands of threads across the communities where the internet is still good — the historians, the cooks, the confessors, the people quietly logging off.</p>
+        </div>
+        <div class="step">
+          <span class="step__num">02</span>
+          <h3>Fifteen make the cut</h3>
+          <p>Every candidate is scored against one question: will a smart reader still care in three months, on paper? No ragebait, no news cycle, no reruns. Fifteen survive.</p>
+        </div>
+        <div class="step">
+          <span class="step__num">03</span>
+          <h3>Written with Claude</h3>
+          <p>The commentary is drafted by Claude, our AI co-editor, in a house voice we’ve argued over line by line — then read, edited, and approved by a human before it touches paper. A magazine about the internet, written with the internet’s strangest new resident. We think that’s the point, not the fine print.</p>
+        </div>
+        <div class="step">
+          <span class="step__num">04</span>
+          <h3>Printed and mailed</h3>
+          <p>Designed, printed on heavy uncoated stock, and mailed flat. It arrives four times a year, and it never asks you to enable notifications.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ THE OBJECT ============ -->
+    <section class="object" id="object">
+      <h2 class="section-label">The object</h2>
+      <dl class="object__specs">
+        <div><dt>Cadence</dt><dd>Quarterly</dd></div>
+        <div><dt>Features</dt><dd>15 per issue</dd></div>
+        <div><dt>Pages</dt><dd>~80</dd></div>
+        <div><dt>Stock</dt><dd>Heavy, uncoated</dd></div>
+        <div><dt>Ads</dt><dd>None</dd></div>
+        <div><dt>Algorithm</dt><dd>None</dd></div>
+        <div><dt>Notifications</dt><dd>None</dd></div>
+        <div><dt>Dark mode</dt><dd>It’s paper</dd></div>
+      </dl>
+    </section>
+
+    <!-- ============ RESERVE ============ -->
+    <section class="reserve" id="reserve">
+      <div class="reserve__card">
+        <p class="reserve__kicker">Founding subscription</p>
+        <p class="reserve__price"><span class="reserve__amount">$60</span> / year</p>
+        <p class="reserve__terms">Four issues, mailed. Nothing billed until Issue 00 goes to print — reserving a copy costs an email address.</p>
+        <form class="capture" action="https://buttondown.com/api/emails/embed-subscribe/REPLACE_ME" method="post">
+          <label class="visually-hidden" for="email-reserve">Email address</label>
+          <input type="email" name="email" id="email-reserve" placeholder="you@example.com" required>
+          <button type="submit">Reserve</button>
+        </form>
+        <p class="capture__note">Founding subscribers get the first short print run and the founding rate for as long as they stay.</p>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq" id="faq">
+      <h2 class="section-label">Questions, anticipated</h2>
+
+      <details>
+        <summary>So it’s a magazine… of Reddit posts?</summary>
+        <p>It’s a magazine of conversations, and Reddit is where the internet still has them in public. But no — we don’t reprint posts. Each feature is an original essay about a conversation: what happened, why it mattered, what the comment section did with it, and what it says about how we live now. Think of the threads as our correspondents.</p>
+      </details>
+
+      <details>
+        <summary>Isn’t AI-written commentary just… slop?</summary>
+        <p>Slop is what you get when nobody’s choosing. Every issue starts with a human cut of fifteen from thousands, the commentary follows a house voice guide with a long list of banned phrases, and a human editor reads and approves every page before print. Claude drafts; taste decides. If an issue ever reads like it was generated to fill space, we’ve failed on our own terms — paper makes that failure permanent, which keeps us honest.</p>
+      </details>
+
+      <details>
+        <summary>Does Reddit endorse this?</summary>
+        <p>No. DISCOURSE is an independent publication, not affiliated with or endorsed by Reddit, Inc. Discussions are summarized and quoted minimally under fair-use commentary, always with attribution to the community and the author.</p>
+      </details>
+
+      <details>
+        <summary>When does Issue 00 ship?</summary>
+        <p>Fall 2026. It covers the first quarter’s theme — “The Quarter We Started Logging Off” — and the print run is sized to the reservation list, so reserving actually matters.</p>
+      </details>
+
+      <details>
+        <summary>Do you ship outside the US?</summary>
+        <p>Issue 00 ships in the US. International follows as the print run grows — reserve with any email and we’ll ask for your country before printing.</p>
+      </details>
+
+      <details>
+        <summary>Why print, though?</summary>
+        <p>Because the feed is a place where everything happens and nothing lasts. Print is the opposite trade: fifteen things, chosen carefully, that you can hand to someone at a dinner table. Also, it looks terrific on a coffee table, and we are not above that.</p>
+      </details>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="footer__masthead">DISCOURSE</p>
+    <p>
+      DISCOURSE is an independent publication. Not affiliated with or endorsed by
+      Reddit,&nbsp;Inc. Discussions are summarized and quoted minimally under
+      fair-use commentary, with attribution. Commentary drafted with Claude and
+      edited by humans.
+    </p>
+    <p>© 2026 DISCOURSE. Printed matter, eventually.</p>
+  </footer>
+
+</body>
+</html>
